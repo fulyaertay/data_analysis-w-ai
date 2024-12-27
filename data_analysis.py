@@ -7,7 +7,7 @@ import pandas as pd
 data = pd.read_csv('depression_data.csv')
 
 # Set up Gemini API Key
-GOOGLE_API_KEY = "AIzaSyBpr7yzfwcKQ9j9WdVSH9Sa-6JUSeES8Bo"
+GOOGLE_API_KEY = "YOUR_API_KEY"
 genai.configure(api_key=GOOGLE_API_KEY)
 
 # Prepare analyses options
